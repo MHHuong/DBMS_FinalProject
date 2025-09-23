@@ -28,57 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.membershipGrid = new Guna.UI2.WinForms.Guna2DataGridView();
             this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
             this.findButton = new Guna.UI2.WinForms.Guna2GradientButton();
             this.txtMaHV = new Guna.UI2.WinForms.Guna2TextBox();
             this.memberIDLabel = new System.Windows.Forms.Label();
             this.cboMaKH = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.cusLabel = new System.Windows.Forms.Label();
             this.dtpBatDau = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dtpKetThuc = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.CheckBox = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.phoneLabel = new System.Windows.Forms.Label();
-            this.txtSDT = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtHoTen = new Guna.UI2.WinForms.Guna2TextBox();
-            this.nameLabel = new System.Windows.Forms.Label();
             this.BtnUpdate = new Guna.UI2.WinForms.Guna2GradientButton();
             this.BtnDel = new Guna.UI2.WinForms.Guna2GradientButton();
             this.BtnAdd = new Guna.UI2.WinForms.Guna2GradientButton();
             this.BtnRegister = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.CheckBox = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.nameLabel = new System.Windows.Forms.Label();
+            this.phoneLabel = new System.Windows.Forms.Label();
+            this.txtSDT = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtHoTen = new Guna.UI2.WinForms.Guna2TextBox();
+            this.ReloadButton = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.membershipGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // membershipGrid
             // 
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.membershipGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.membershipGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.membershipGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.membershipGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.membershipGrid.ColumnHeadersHeight = 15;
             this.membershipGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.membershipGrid.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.membershipGrid.DefaultCellStyle = dataGridViewCellStyle6;
             this.membershipGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.membershipGrid.Location = new System.Drawing.Point(279, 73);
             this.membershipGrid.Name = "membershipGrid";
+            this.membershipGrid.ReadOnly = true;
             this.membershipGrid.RowHeadersVisible = false;
             this.membershipGrid.Size = new System.Drawing.Size(568, 574);
             this.membershipGrid.TabIndex = 4;
@@ -95,7 +97,7 @@
             this.membershipGrid.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.membershipGrid.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.membershipGrid.ThemeStyle.HeaderStyle.Height = 15;
-            this.membershipGrid.ThemeStyle.ReadOnly = false;
+            this.membershipGrid.ThemeStyle.ReadOnly = true;
             this.membershipGrid.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.membershipGrid.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.membershipGrid.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
@@ -183,15 +185,15 @@
             this.cboMaKH.Size = new System.Drawing.Size(237, 36);
             this.cboMaKH.TabIndex = 14;
             // 
-            // label1
+            // cusLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(1, 115);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 20);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Mã Khách Hàng";
+            this.cusLabel.AutoSize = true;
+            this.cusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.cusLabel.Location = new System.Drawing.Point(1, 115);
+            this.cusLabel.Name = "cusLabel";
+            this.cusLabel.Size = new System.Drawing.Size(123, 20);
+            this.cusLabel.TabIndex = 15;
+            this.cusLabel.Text = "Mã Khách Hàng";
             // 
             // dtpBatDau
             // 
@@ -243,6 +245,71 @@
             this.dtpKetThuc.TabIndex = 19;
             this.dtpKetThuc.Value = new System.DateTime(2025, 9, 19, 15, 38, 3, 319);
             // 
+            // BtnUpdate
+            // 
+            this.BtnUpdate.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnUpdate.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnUpdate.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnUpdate.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnUpdate.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnUpdate.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtnUpdate.ForeColor = System.Drawing.Color.White;
+            this.BtnUpdate.Location = new System.Drawing.Point(142, 553);
+            this.BtnUpdate.Name = "BtnUpdate";
+            this.BtnUpdate.Size = new System.Drawing.Size(98, 37);
+            this.BtnUpdate.TabIndex = 27;
+            this.BtnUpdate.Text = "Cập nhật";
+            this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
+            // 
+            // BtnDel
+            // 
+            this.BtnDel.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnDel.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnDel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnDel.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnDel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnDel.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtnDel.ForeColor = System.Drawing.Color.White;
+            this.BtnDel.Location = new System.Drawing.Point(8, 610);
+            this.BtnDel.Name = "BtnDel";
+            this.BtnDel.Size = new System.Drawing.Size(98, 37);
+            this.BtnDel.TabIndex = 26;
+            this.BtnDel.Text = "Xóa";
+            this.BtnDel.Click += new System.EventHandler(this.BtnDel_Click);
+            // 
+            // BtnAdd
+            // 
+            this.BtnAdd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnAdd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnAdd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnAdd.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnAdd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnAdd.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtnAdd.ForeColor = System.Drawing.Color.White;
+            this.BtnAdd.Location = new System.Drawing.Point(7, 553);
+            this.BtnAdd.Name = "BtnAdd";
+            this.BtnAdd.Size = new System.Drawing.Size(98, 37);
+            this.BtnAdd.TabIndex = 25;
+            this.BtnAdd.Text = "Thêm";
+            this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
+            // 
+            // BtnRegister
+            // 
+            this.BtnRegister.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnRegister.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnRegister.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnRegister.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnRegister.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnRegister.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtnRegister.ForeColor = System.Drawing.Color.White;
+            this.BtnRegister.Location = new System.Drawing.Point(142, 610);
+            this.BtnRegister.Name = "BtnRegister";
+            this.BtnRegister.Size = new System.Drawing.Size(98, 37);
+            this.BtnRegister.TabIndex = 28;
+            this.BtnRegister.Text = "Đăng ký";
+            this.BtnRegister.Visible = false;
+            this.BtnRegister.Click += new System.EventHandler(this.BtnRegister_Click);
+            // 
             // CheckBox
             // 
             this.CheckBox.AutoSize = true;
@@ -261,6 +328,17 @@
             this.CheckBox.UncheckedState.BorderThickness = 0;
             this.CheckBox.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.CheckBox.CheckedChanged += new System.EventHandler(this.CheckBox_CheckedChanged);
+            // 
+            // nameLabel
+            // 
+            this.nameLabel.AutoSize = true;
+            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.nameLabel.Location = new System.Drawing.Point(3, 391);
+            this.nameLabel.Name = "nameLabel";
+            this.nameLabel.Size = new System.Drawing.Size(77, 20);
+            this.nameLabel.TabIndex = 21;
+            this.nameLabel.Text = "Họ và tên";
+            this.nameLabel.Visible = false;
             // 
             // phoneLabel
             // 
@@ -313,85 +391,27 @@
             this.txtHoTen.TabIndex = 22;
             this.txtHoTen.Visible = false;
             // 
-            // nameLabel
+            // ReloadButton
             // 
-            this.nameLabel.AutoSize = true;
-            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.nameLabel.Location = new System.Drawing.Point(3, 391);
-            this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(77, 20);
-            this.nameLabel.TabIndex = 21;
-            this.nameLabel.Text = "Họ và tên";
-            this.nameLabel.Visible = false;
-            // 
-            // BtnUpdate
-            // 
-            this.BtnUpdate.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnUpdate.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnUpdate.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnUpdate.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnUpdate.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnUpdate.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BtnUpdate.ForeColor = System.Drawing.Color.White;
-            this.BtnUpdate.Location = new System.Drawing.Point(146, 553);
-            this.BtnUpdate.Name = "BtnUpdate";
-            this.BtnUpdate.Size = new System.Drawing.Size(98, 37);
-            this.BtnUpdate.TabIndex = 27;
-            this.BtnUpdate.Text = "Cập nhật";
-            this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
-            // 
-            // BtnDel
-            // 
-            this.BtnDel.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnDel.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnDel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnDel.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnDel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnDel.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BtnDel.ForeColor = System.Drawing.Color.White;
-            this.BtnDel.Location = new System.Drawing.Point(3, 610);
-            this.BtnDel.Name = "BtnDel";
-            this.BtnDel.Size = new System.Drawing.Size(98, 37);
-            this.BtnDel.TabIndex = 26;
-            this.BtnDel.Text = "Xóa";
-            this.BtnDel.Click += new System.EventHandler(this.BtnDel_Click);
-            // 
-            // BtnAdd
-            // 
-            this.BtnAdd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnAdd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnAdd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnAdd.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnAdd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnAdd.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BtnAdd.ForeColor = System.Drawing.Color.White;
-            this.BtnAdd.Location = new System.Drawing.Point(7, 553);
-            this.BtnAdd.Name = "BtnAdd";
-            this.BtnAdd.Size = new System.Drawing.Size(98, 37);
-            this.BtnAdd.TabIndex = 25;
-            this.BtnAdd.Text = "Thêm";
-            this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
-            // 
-            // BtnRegister
-            // 
-            this.BtnRegister.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BtnRegister.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnRegister.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnRegister.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnRegister.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnRegister.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BtnRegister.ForeColor = System.Drawing.Color.White;
-            this.BtnRegister.Location = new System.Drawing.Point(142, 610);
-            this.BtnRegister.Name = "BtnRegister";
-            this.BtnRegister.Size = new System.Drawing.Size(98, 37);
-            this.BtnRegister.TabIndex = 28;
-            this.BtnRegister.Text = "Đăng ký";
-            this.BtnRegister.Click += new System.EventHandler(this.BtnRegister_Click);
+            this.ReloadButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ReloadButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ReloadButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ReloadButton.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ReloadButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ReloadButton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ReloadButton.ForeColor = System.Drawing.Color.White;
+            this.ReloadButton.Location = new System.Drawing.Point(165, 10);
+            this.ReloadButton.Name = "ReloadButton";
+            this.ReloadButton.Size = new System.Drawing.Size(75, 41);
+            this.ReloadButton.TabIndex = 29;
+            this.ReloadButton.Text = "Reload";
+            this.ReloadButton.Click += new System.EventHandler(this.ReloadButton_Click);
             // 
             // MembershipUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.ReloadButton);
             this.Controls.Add(this.BtnRegister);
             this.Controls.Add(this.BtnUpdate);
             this.Controls.Add(this.BtnDel);
@@ -405,7 +425,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dtpBatDau);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.cusLabel);
             this.Controls.Add(this.cboMaKH);
             this.Controls.Add(this.memberIDLabel);
             this.Controls.Add(this.txtMaHV);
@@ -429,19 +449,20 @@
         private Guna.UI2.WinForms.Guna2TextBox txtMaHV;
         private System.Windows.Forms.Label memberIDLabel;
         private Guna.UI2.WinForms.Guna2ComboBox cboMaKH;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label cusLabel;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpBatDau;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpKetThuc;
-        private Guna.UI2.WinForms.Guna2CheckBox CheckBox;
-        private System.Windows.Forms.Label phoneLabel;
-        private Guna.UI2.WinForms.Guna2TextBox txtSDT;
-        private Guna.UI2.WinForms.Guna2TextBox txtHoTen;
-        private System.Windows.Forms.Label nameLabel;
         private Guna.UI2.WinForms.Guna2GradientButton BtnUpdate;
         private Guna.UI2.WinForms.Guna2GradientButton BtnDel;
         private Guna.UI2.WinForms.Guna2GradientButton BtnAdd;
         private Guna.UI2.WinForms.Guna2GradientButton BtnRegister;
+        private Guna.UI2.WinForms.Guna2CheckBox CheckBox;
+        private System.Windows.Forms.Label nameLabel;
+        private System.Windows.Forms.Label phoneLabel;
+        private Guna.UI2.WinForms.Guna2TextBox txtSDT;
+        private Guna.UI2.WinForms.Guna2TextBox txtHoTen;
+        private Guna.UI2.WinForms.Guna2GradientButton ReloadButton;
     }
 }

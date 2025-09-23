@@ -60,5 +60,10 @@ namespace QLKH
         {
             LoadAudit();
         }
+
+        private void ReloadButton_Click(object sender, EventArgs e)
+        {
+            LoadAudit();
+        }
     }
 }

@@ -19,7 +19,6 @@ namespace QLKH
         {
             InitializeComponent();
             this.Load += MemberUC_Load;
-
             membershipGrid.SelectionChanged += membershipGrid_SelectionChanged;
            
         }
@@ -151,18 +150,22 @@ namespace QLKH
             {
                 MessageBox.Show(ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        
         }
 
         private void CheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            bool show = CheckBox.Checked;
-            if (show)
+            if (CheckBox.Checked)
             {
                 nameLabel.Visible = true;
                 phoneLabel.Visible = true;
-                txtHoTen.Visible = show;
-                txtSDT.Visible = show;
+                txtHoTen.Visible = true;
+                txtSDT.Visible = true;
+                BtnRegister.Visible = true;
+                cusLabel.Visible = false;
+                cboMaKH.Visible = false;
+                BtnAdd.Visible = false;
+                BtnDel.Visible = false;
+                BtnUpdate.Visible = false;
             }
             else
             {
@@ -170,6 +173,13 @@ namespace QLKH
                 phoneLabel.Visible = false;
                 txtHoTen.Visible = false;
                 txtSDT.Visible= false;
+                BtnRegister.Visible = false;
+                cboMaKH.Visible = true;
+                cusLabel.Visible = true;
+                cboMaKH.Visible = true;
+                BtnAdd.Visible = true;
+                BtnDel.Visible = true;
+                BtnUpdate.Visible = true;
             }
         }
 
@@ -182,6 +192,11 @@ namespace QLKH
 
             membershipGrid.DataSource = dt;
             membershipGrid.ClearSelection();
+        }
+
+        private void ReloadButton_Click(object sender, EventArgs e)
+        {
+            LoadGrid();
         }
     }
     

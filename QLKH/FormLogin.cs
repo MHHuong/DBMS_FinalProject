@@ -15,6 +15,7 @@ namespace QLKH
     public partial class FormLogin : Form
     {
         private bool isLogin = true;
+
         public FormLogin()
         {
             InitializeComponent();
@@ -51,25 +52,9 @@ namespace QLKH
             }
         }
 
-        private void txtUsername_TextChanged(object sender, EventArgs e)
-        {
-            isLogin = true;
-            errorProvider1.SetError(txtUsername, "");
-            if (!string.IsNullOrEmpty(txtUsername.Text))
-            {
-                if (txtUsername.Text.Length < 8)
-                {
-                    errorProvider1.SetError(txtUsername, "Dài hơn 8 kí tự");
-                    isLogin = false;
-                }
-            }
-        }
 
-        private void txtPassword_TextChanged(object sender, EventArgs e)
-        {
-            isLogin = true;
-            errorProvider1.SetError(txtPassword, "");
-        }
+
+       
 
         private void lblForgetPassword_Click(object sender, EventArgs e)
         {

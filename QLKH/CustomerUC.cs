@@ -116,5 +116,10 @@ namespace QLKH
             customerGrid.DataSource = dt;
             customerGrid.ClearSelection();
         }
+
+        private void ReloadButton_Click(object sender, EventArgs e)
+        {
+            LoadGrid();
+        }
     }
 }

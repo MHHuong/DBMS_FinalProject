@@ -34,6 +34,7 @@ namespace QLKH
             managerPanel.Controls.Clear();
             managerPanel.Controls.Add(_managerUc);
             _managerUc.BringToFront();
+            
         }
 
         private void ManagerMember()
