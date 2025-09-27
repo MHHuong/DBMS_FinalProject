@@ -14,8 +14,8 @@ namespace QLKH
 
         public static void SqlConnectionString(string username, string password)
         {
-            //SqlStr = $"Data Source=.;Initial Catalog=QLGYM;User ID={username};Password={password};Trust Server Certificate=True";
-            SqlStr = $"Data Source=.;Initial Catalog=QLGYM_NEW;User ID={username};Password={password};Trust Server Certificate=True";
+            SqlStr = $"Data Source=.;Initial Catalog=QLGYM;User ID={username};Password={password};Trust Server Certificate=True";
+            //SqlStr = $"Data Source=.;Initial Catalog=TEST;User ID={username};Password={password};Trust Server Certificate=True";
 
         }
     }

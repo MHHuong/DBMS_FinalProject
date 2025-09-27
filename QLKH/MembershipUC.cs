@@ -37,8 +37,7 @@ namespace QLKH
         }
         private void LoadGrid()
         {
-            // Lấy từ VIEW để có NgayConLai + TrangThai
-            var dt = db.Execute("SELECT * FROM dbo.v_HoiVienChiTiet ORDER BY TenKhachHang, NgayBatDau DESC");
+            var dt = db.ExecuteProcTable("dbo.proc_DanhSachHoiVien");
             membershipGrid.DataSource = dt;
             membershipGrid.ClearSelection();
             ClearInputs();
@@ -58,7 +57,6 @@ namespace QLKH
             if (row == null) return;
 
             txtMaHV.Text = row["MaHV"]?.ToString();
-            // Chuyển MaKH: cột trong view là "MaKH"
             var makh = row["MaKH"]?.ToString();
             if (!string.IsNullOrEmpty(makh)) cboMaKH.SelectedValue = makh;
 
@@ -83,7 +81,6 @@ namespace QLKH
             }
             catch (Exception ex)
             {
-                // Trigger chặn chồng chéo hoặc sai ngày sẽ ném lỗi ở đây
                 MessageBox.Show(ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -126,8 +123,7 @@ namespace QLKH
 
         private void BtnRegister_Click(object sender, EventArgs e)
         {
-            // Nếu muốn đăng ký cho KH mới: để MaKH = NULL -> truyền DBNull.Value
-            var useNewKH = CheckBox.Checked; // thêm checkbox trên UI
+            var useNewKH = CheckBox.Checked;
             var makhParam = useNewKH ? (object)DBNull.Value : (object)cboMaKH.SelectedValue;
 
             var msg = new SqlParameter("@Msg", SqlDbType.NVarChar, 200) { Direction = ParameterDirection.Output };

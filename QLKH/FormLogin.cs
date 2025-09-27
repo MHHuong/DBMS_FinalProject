@@ -51,21 +51,10 @@ namespace QLKH
                 MessageBox.Show("Có lỗi khi kết nối đến SQL Server.\n\n" + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-
-
-       
-
         private void lblForgetPassword_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hãy liên hệ với admin", "Thông báo");
         }
-
-        private void lblSignUp_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Hãy liên hệ với admin", "Thông báo");
-        }
-
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();

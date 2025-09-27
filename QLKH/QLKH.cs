@@ -20,8 +20,6 @@ namespace QLKH
         {
             InitializeComponent();
             ManagerCustomer();
-
-            //guna2TabControl1.SelectedIndexChanged += guna2TabControl1_SelectedIndexChanged;
         }
 
         private void ManagerCustomer()

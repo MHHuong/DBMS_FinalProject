@@ -103,7 +103,6 @@ namespace QLKH
             }
             catch (Exception ex)
             {
-                // Trigger/proc sẽ báo nếu còn HoiVien
                 MessageBox.Show(ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
